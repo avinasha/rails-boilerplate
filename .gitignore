@@ -4,6 +4,7 @@ public/javascripts/app_error_handler.js
 supportbeeapp_production.sql
 solr/data
 db/*.qlite3
+db/*.sqlite3
 log/*.log
 tmp/**/*
 config/database.yml

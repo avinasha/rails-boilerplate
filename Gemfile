@@ -37,7 +37,14 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-group :test, :development do
+group :test, :development, :cucumber do
   gem 'rspec-rails'
   gem 'flexmock'
+
+  gem 'cucumber-rails', :require => false
+  # database_cleaner is not required, but highly recommended
+  gem 'database_cleaner'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'pickle'
 end
