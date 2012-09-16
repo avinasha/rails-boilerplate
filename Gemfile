@@ -47,4 +47,6 @@ group :test, :development, :cucumber do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'pickle'
+
+  gem 'factory_girl_rails'
 end
